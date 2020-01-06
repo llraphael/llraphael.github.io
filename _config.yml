@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
-name: Expedition
+title: Expedition
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
