@@ -1,4 +1,6 @@
 theme: jekyll-theme-slate
 title: Expedition
 markdown: kramdown
+kramdown:
+    math_engine: mathjax
 permalink: /blog/:year/:month/:day/:title
