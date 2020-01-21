@@ -1,6 +1,8 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 title: Expedition
+description: A journey to intelligence
 markdown: kramdown
 kramdown:
     math_engine: mathjax
 permalink: /blog/:year/:month/:day/:title
+show_downloads: false
