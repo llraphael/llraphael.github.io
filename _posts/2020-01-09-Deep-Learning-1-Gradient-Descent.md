@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Deep Neural Network 1: Gradient Descent"
 date: 2020-01-09
 mathjax: true
