@@ -1,7 +1,8 @@
 ---
-layout: default
 title: "First Post"
-date: 2020-01-04
+last_modified: 2020-01-04
+categories:
+  - Blog
 ---
 
 Well. Just into the github page and Jekyll. This is the first post to test.

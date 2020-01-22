@@ -1,9 +1,9 @@
 ---
-layout: default
 title: "Deep Neural Network 1: Gradient Descent"
-date: 2020-01-09
+last_modified: 2020-01-09
 mathjax: true
-categories: deep-learning
+categories: 
+  - deep-learning
 ---
 
 # Introduction
