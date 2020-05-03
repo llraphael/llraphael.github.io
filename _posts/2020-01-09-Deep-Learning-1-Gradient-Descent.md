@@ -32,7 +32,7 @@ $$ x := x - \alpha \frac{df(x)}{dx}.$$ until $$x$$ converges.
   <img src="/assets/dl_posts/gradient_descent_good.png" width="500" height="500" title="Figure 2. Gradient Descent">
 </p>
 
-Thus, with a proper value of $$\alpha$$, x moves toward the point that minimizes $$f(x)$$, as shown in Figure 2. It can be easily seen that $$\alpha$$ controls the pace of the iteration toward the minimum point. In machine learning problems, this in general determines how fast the trained model approaches/learns the real model from data, so we call it learning rate. However, we don't want the learning rate to be either too big or too small: too big learning rate can bypass the minimum point and cause osillaction, while too small learning rate may take long time to converge or stuck in some local optimal.
+Thus, with a proper value of $$\alpha$$, x moves toward the point that minimizes $$f(x)$$, as shown in Figure 2. It can be easily seen that $$\alpha$$ controls the pace of the iteration toward the minimum point. In machine learning problems, this in general determines how fast the trained model approaches/learns the real model from data, so we call it learning rate. However, we don't want the learning rate to be either too big or too small: too big learning rate can bypass the minimum point and cause oscillations, while too small learning rate may take long time to converge or stuck in some local optimal.
 
 
 ## Logistic Regression
@@ -54,7 +54,7 @@ $$ \operatorname*{argmin}_{w_1, w_2, b} \mathcal{L}(a, y) $$
 But how do we get that?
 
 ## Apply Gradient Descent
-With the idea of gradient descent, if we know the gradient of the loss function $$\mathcal{L}$$ along the $w_1, w_2, b$, we may find the directions that decreases the prediction error (in a high dimenstional graph representation). Thus, we need to get the derivatives of the loss function to each parameter. We simplify the expressions as:
+With the idea of gradient descent, if we know the gradient of the loss function $$\mathcal{L}$$ along the $w_1, w_2, b$, we may find the directions that decreases the prediction error (in a high dimensional graph representation). Thus, we need to get the derivatives of the loss function to each parameter. We simplify the expressions as:
 
 $$
 \frac{\partial \mathcal{L}}{\partial z} \rightarrow d z,  
@@ -105,7 +105,7 @@ $$
 \textbf{A} = \sigma(\textbf{Z}) \\
 $$
 
-Thus, we can futher obtain the average gradients with matrix operations:
+Thus, we can further obtain the average gradients with matrix operations:
 
 $$
 d\textbf{Z} = \textbf{A} - \textbf{Y} \\
