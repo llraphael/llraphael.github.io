@@ -1,9 +1,9 @@
 ---
 title: "Deep Neural Network 1: Gradient Descent and Logistic Regression"
+toc: true
 last_modified: 2020-01-09
 mathjax: true
 categories: 
-  - blogs
   - deep-learning
 ---
 
